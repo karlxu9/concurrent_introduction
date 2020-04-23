@@ -2,10 +2,10 @@ package singleton;
 
 /**
  * 模块描述: <br>
- * ()
+ * 【】
  *
- * @Author: Mr. xyb
- * @Date: 2019/3/26 15:08
+ * @Author: Mr. KarlXu
+ * @Date: 2020/4/24 0:30
  * @since: 1.8.0
  * @version: 1.0.0
  */
