@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 模块描述: <br>
  * (精灵线程 daemon)
+ * 工作窃取，当前线程工作结束，从其他线程维护的队列中获取任务
  *
  * @Author: Mr. xyb
  * @Date: 2019/4/13 1:37

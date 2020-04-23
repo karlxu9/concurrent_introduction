@@ -10,7 +10,7 @@ import java.util.concurrent.RecursiveTask;
 
 /**
  * 模块描述: <br>
- * ()
+ * (任务拆分 组合结果)
  *
  * @Author: Mr. xyb
  * @Date: 2019/4/13 1:48
@@ -84,8 +84,9 @@ public class T12_ForkJoinPool {
             int middle = start + (end - start) / 2;
             AddTask addTask1 = new AddTask(start, middle);
             AddTask addTask2 = new AddTask(middle, end);
-            addTask1.fork();
-            addTask2.fork();
+            invokeAll(addTask1,addTask2);
+            // addTask1.fork();
+            // addTask2.fork();
             return addTask1.join() + addTask2.join();
         }
     }

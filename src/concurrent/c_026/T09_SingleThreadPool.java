@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 
 /**
  * 模块描述: <br>
- * ()
+ * (单例线程程)
  *
  * @Author: Mr. xyb
  * @Date: 2019/4/13 1:27
